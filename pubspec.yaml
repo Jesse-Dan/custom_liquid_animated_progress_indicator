@@ -1,0 +1,23 @@
+name: ble_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue: ^0.8.0
+  flutter_custom_clippers: ^2.1.0
+  liquid_progress_indicator: ^0.4.0
+  permission_handler: ^10.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
